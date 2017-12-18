@@ -1,0 +1,41 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Rep tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/jquery.auto-complete.css">
+  <script src="js/jquery.auto-complete.min.js"></script> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/custom_2.css" rel="stylesheet">
+<!--   <link href="css/BentonSans-Regular_sOT.otf" rel="stylesheet"> -->
+  <script type="text/javascript" src="js/pym_2.js"></script>
+ 
+</head>
+<body>
+<div class='njam-container'>
+  <div class='banner'>Find your reps</div>
+  <h1 id='top-title'>Contact your reps</h1>
+  <p class='intro_text'>Enter your town to find out who represents you in the New Jersey legislature.</p>
+  <p class='intro_text'>Note: Based on the roster on the <a target='_blank' href='http://www.njleg.state.nj.us/members/roster.asp'> legislature website.</a> If you notice an issue, please contact Erin Petenko.</p>
+  <div class='geo-form'>
+    <p class='towny'>Your town:</p><p>
+      <input type="text" id="town">
+    </p>
+    <button type="button" id="input_click" class="btn btn-primary">FIND</button>
+    <br>     
+  </div>
+  <div class='exception'></div>
+  <div class='district'></div>
+  <div class="house"></div>
+  <div class="senate"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/jquery.auto-complete.css">
+  <script src="js/jquery.auto-complete.min.js"></script>
+  <script src='js/get_the_reps.js'></script>
+  <p class='credit'>Created by Erin Petenko | <a href='http://nj.com/data'> NJ.com Data & Interactives</a></p>
+  <div class='banner2'></div>
+</div>
+</body>
+</html>

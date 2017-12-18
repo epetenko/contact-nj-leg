@@ -1,0 +1,155 @@
+#njam-container {
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    fill: #333;
+    margin: 0;
+    max-width: 620px;
+    padding:0px 5px 5px 5px;
+}
+#njam-container div.btn-group.bootstrap-select {
+    margin-bottom: 20px;
+    width: 90%;
+}
+#njam-container h1 {
+    font-size: 22px;
+}
+
+.geo-form {
+    padding:2px;
+    background-color:#C1CED8;
+    font-size: 14px;
+    width:325px;
+    clear:both;
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.intro_text {
+    font-size: 14px;
+}
+.intro_text {
+    clear: both;
+}
+.credit {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-transform: uppercase;
+}
+.credit {
+    margin-bottom: 10px;
+}
+
+#town {
+    width: 80%;
+}
+
+input {
+    font-size: 14px;
+    margin:2px;
+}
+
+.find-button {
+    font-size: 14px;
+    margin:5px;
+}
+
+/*#njam-container {
+    height: 100%;
+}*/
+h2 {
+    font-size: 22px;
+}
+.grid {
+    width: 100%;
+    padding: 10%;
+}
+
+.senate, .house {
+    padding-top: 5px;
+}
+
+/*.house {
+    float:left;
+}
+
+.senate {
+    margin-left: 300px;
+    margin-right: 800px;
+}*/
+
+/*.senate .legislators {
+    float:left;
+}*/
+
+.title {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.legislators {
+    line-height: 250%;
+    padding:5px;
+    background-color: #065A82;
+/*    height:335px;
+*/  color:#EAEBF0;
+/*    float:left;
+*/    max-width: 250px;
+/*    margin-right: 800px;
+*/}
+
+.legislators a {
+    color:#EAEBF0;
+}
+
+.name {
+    font-size: 20px;
+}
+.partydist {
+    font-size: 16px;
+}
+
+.geo-image img {
+    min-height: 50px;
+    min-width: 30px;
+    max-width: 150px;
+    max-height: 250px;
+}
+
+/*.contact-info {
+    padding:5px;
+}*/
+
+
+.geo-leg-header {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.geo-table {
+    font-size: 14px;
+}
+
+.geo-table tr {
+    padding:2px;
+}
+
+.address {
+    line-height: 100%;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+#close-geo {
+    display:none;
+}
+
+@media screen and (min-width: 850px) {
+    #njam-container {
+        float:left;
+    }
+}

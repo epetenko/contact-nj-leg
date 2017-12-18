@@ -1,0 +1,141 @@
+.njam-container {
+/*    font-family: 'Roboto',sans-serif;
+*/    fill: #333;
+    max-width: 620px;
+    margin:0px 0px 17px 5px;
+/*    padding:0px 0px 15px 2px;
+*/}
+
+@font-face {
+    font-family: BentonSans;
+    src: url("BentonSans/BentonSans-Regular_sOT.otf") format("opentype");
+}
+
+.njam-container div.btn-group.bootstrap-select {
+    width: 90%;
+}
+
+h1, .banner, .district, .chamber,  {
+    font-family: 'Roboto', sans-serif;
+}
+
+p, .contact-info, .name {
+    font-family:BentonSans;
+}
+
+.district, .chamber {
+    margin-left: 8px;
+}
+
+.banner, .banner2 {
+    background-color:#4c6369;
+    width: 100%;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+.banner {
+    height:20px;
+    width:100%;
+    padding:0px 0px 0px 5px;
+}
+
+.banner2 {
+    margin:8px 0px 0px 0px;
+    height:5px;
+    bottom:10px;
+    width:100%;
+}
+
+h1 {
+    margin:2px;
+}
+
+.intro_text {
+    font-size: 14px;
+    clear: both;
+}
+
+
+.geo-form {
+    padding:5px 0px 5px 8px;
+    margin:2px;
+    font-size: 16px;
+/*    width:90%;
+*/  max-width:300px;
+    clear:both;
+}
+
+/*.geo-form .towny {
+    color:#F0F0F0;
+}*/
+
+#town {
+    width:200px;
+}
+
+#input_click{
+    background-color: #702f34;
+    border-color: #702f34; 
+    font-size: 14px;
+}
+
+.district {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.legislators {
+    margin:5px 5px 10px 10px;
+    padding-left:7px;
+    padding-right: 7px;
+    max-width: 275px;
+}
+
+.legislators a {
+    color:#4c6369;
+}
+
+.chamber {
+    font-weight: bold;
+}
+
+.name {
+    font-size: 17px;
+    padding-top:2px;
+}
+
+.geo-leg-header {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.geo-table {
+    font-size: 14px;
+    padding:2px 2px 5px 2px;
+}
+
+.geo-table td {
+    padding-top:2px;
+    padding-right:5px;
+    vertical-align: top;
+}
+
+.credit {
+    font-size: 12px;
+    margin-left:8px;
+    padding: 0;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/*#close-geo {
+    display:none;
+}*/
+
+@media screen and (min-width: 850px) {
+    #njam-container {
+        float:left;
+    }
+}
